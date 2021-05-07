@@ -8,13 +8,6 @@ It is easy to write **markdown**-*enabled* content like this placeholder text, w
 If you are in local development-mode (`npm run dev`) you can double-click here to edit and save this page quickly.
 
 
-```js{1,4}[posts.vue]
-formatDate(dateString) {
-  const date = new Date(dateString)
-  return date.toLocaleDateString(process.env.lang) || ''
-}
-```
-
 ![Placeholder Kitten](https://placekitten.com/800/400)
 
 ### Steps to take:
