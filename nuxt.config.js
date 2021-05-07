@@ -84,6 +84,11 @@ export default {
    ** Build configuration
    */
   build: {
+    babel: {
+      plugins: [
+        ['@babel/plugin-proposal-private-methods', { loose: true }]
+      ]
+    },
     extractCSS: true,
     postcss: {
       plugins: {
@@ -102,7 +107,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   },
   /*
    ** Custom additions configuration
