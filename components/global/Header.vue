@@ -1,23 +1,29 @@
 <template>
-  <nav class="scrim-bg fixed z-40 top-0 inset-x-0 pt-3 px-3" aria-label="Main Menu">
-    <ul class="flex">
-      <li class="flex-1">
-        <nuxt-link class="btn block" to="/">Home</nuxt-link>
-      </li>
-      <li class="flex-1">
-        <nuxt-link class="btn block" to="/about">About Us</nuxt-link>
-      </li>
-      <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/news">News</nuxt-link>
-      </li>
-      <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/jobs">Jobs</nuxt-link>
-      </li>
-      <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/contact">Contact</nuxt-link>
-      </li>
-    </ul>
-  </nav>
+  <header class="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3">
+    <a href="#" class="block">
+    <span class="sr-only">BDE Group</span>
+      <img class="h-6 md:h-8" src="https://picsum.photos/seed/bde/1200/300" alt="BDE Group" title="BDE Group">
+    </a>
+    <nav aria-label="Main Menu" class="lg:flex lg:flex-grow items-center">
+      <ul class="flex flex-col lg:flex-row list-none ml-auto">
+        <li class="nav-item hover:underline">
+          <nuxt-link class="btn block" to="/solutions">Solutions</nuxt-link>
+        </li>
+        <li class="nav-item hover:underline">
+          <nuxt-link class="btn block" to="/about">About Us</nuxt-link>
+        </li>
+        <li class="nav-item hover:underline">
+          <nuxt-link class="btn block" to="/news">News</nuxt-link>
+        </li>
+        <li class="nav-item hover:underline">
+          <nuxt-link class="btn block" to="/jobs">Jobs</nuxt-link>
+        </li>
+        <li class="nav-item hover:underline">
+          <nuxt-link class="btn block" to="/contact">Contact</nuxt-link>
+        </li>
+      </ul>
+    </nav>
+  </header>
 </template>
 
 <script>

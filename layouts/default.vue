@@ -1,6 +1,7 @@
 <template>
-  <div class="wrapper">
+  <div class="">
     <Header />
     <nuxt />
+    <Footer />
   </div>
 </template>

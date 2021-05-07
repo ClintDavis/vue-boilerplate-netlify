@@ -7,6 +7,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+  mode: 'jit',
   theme: {
     darkSelector: '.dark-mode',
     extend: {
@@ -47,15 +48,8 @@ module.exports = {
       },
     },
   },
-  variants: {
-    backgroundColor: ['dark', 'dark-hover', 'dark-group-hover'],
-    borderColor: ['dark', 'dark-focus', 'dark-focus-within'],
-    textColor: ['dark', 'dark-hover', 'dark-active']
-  },
   plugins: [require('tailwindcss-dark-mode')()],
   purge: {
-    // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
-    enabled: process.env.NODE_ENV === 'production',
     content: ['components/**/*.vue', 'layouts/**/*.vue', 'pages/**/*.vue', 'plugins/**/*.js', 'nuxt.config.js'],
     options: {
       // Set whitelist in nuxt.config.js -> purgeCSS.whitelist: ['dark-mode', 'light-mode', 'btn', 'icon']
