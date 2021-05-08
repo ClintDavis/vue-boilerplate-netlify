@@ -98,21 +98,21 @@
         <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
             <!-- Col Title -->
             <div class="text-xs uppercase text-gray-400 font-medium mb-6">
-                Community
+                Contact
             </div>
 
             <!-- Links -->
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                GitHub
+            <a href="tel:+61731236008" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                (07) 3123 6008
             </a>
             <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Discord
+                Get a Quote
+            </a>
+            <a href="https://bdegroup.freshdesk.com/support/home" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Support
             </a>
             <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Twitter
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                YouTube
+                LinkedIn
             </a>
         </div>
     </div>
@@ -123,25 +123,13 @@
             border-t border-gray-500 text-gray-400 text-sm 
             flex-col md:flex-row max-w-6xl">
             <div class="mt-2">
-                © Copyright 1998-year. All Rights Reserved.
+                © Copyright 2014-{{currentYear}}. All Rights Reserved.
             </div>
 
             <!-- Required Unicons (if you want) -->
             <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
                 <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-facebook-f"></i>
-                </a>
-                <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-twitter-alt"></i>
-                </a>
-                <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-youtube"></i>
-                </a>
-                <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-linkedin"></i>
-                </a>
-                <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-instagram"></i>
+                    Linked In Icon
                 </a>
             </div>
         </div>
@@ -152,7 +140,14 @@
 <script>
 export default {
   name: 'Footer',
+  data() {
+    return {
+      currentYear: new Date().getFullYear(),
+    };
+  }
 }
+
+
 </script>
 
 <style lang="postcss" scoped>

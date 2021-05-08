@@ -5,9 +5,20 @@
       <h2 class="subtitle text-center">Boilerplate</h2>
     </section>
 
+    <section>
+      <h3>WE ARE BDE...</h3>
+      <p>At BDE we have a founding principle akin to Google employees having googleyness. 
+        Someone having BDEness is a reflection of their personality and has several elements such as having 
+        quiet confidence and ease but without arrogance or bravado. Someone who considers themselves talented, 
+        encourages others to succeed and is quite willing to admit their own mistakes. Confidence that comes from 
+        believing in yourself and having the skills to back it. BDE is about the quality of work and the level of 
+        service our customers can count on us for.</p>
+    </section>
+
+
     <section class="mt-8">
       <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">Firstname Lastname</h3>
-      <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" />
+      <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" class="float-left" />
       <p>
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
         literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
@@ -28,7 +39,7 @@
 
     <section class="mt-8">
       <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">Firstname Lastname</h3>
-      <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" />
+      <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" class="float-left" />
       <p>
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
         literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
@@ -49,7 +60,7 @@
 
     <section class="mt-8">
       <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">Firstname Lastname</h3>
-      <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" />
+      <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" class="float-left" />
       <p>
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
         literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
@@ -70,8 +81,9 @@
 
 
     <section>
-    <div class="bg-black text-white py-8">
+    <div class="text-white py-8">
     <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
+      <h3>Company Timeline</h3>
       <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
         <div class="container mx-auto w-full h-full">
           <div class="relative wrap overflow-hidden p-10 h-full">
@@ -126,7 +138,6 @@
               </div>
             </div>
           </div>
-          <img class="mx-auto -mt-36 md:-mt-36" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
         </div>
       </div>
     </div>
